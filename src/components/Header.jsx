@@ -4,22 +4,19 @@ import SearchIcon from '@material-ui/icons/Search';
 const Header = () => {
     return (
         <div className="header">
-        
-        <h1>Gamer's Lounge</h1>
-           
-            
-            <p>News</p>
-            <p>About us</p>
-            
-        
-        <div className="search-bar">
-            <input type="text" placeholder="Search Games " />
-            <SearchIcon />
-        </div>
-        
-        <div className="login">
-            <button>LOG IN</button>
-        </div>
+            <div className="left">
+                <h1>Gamer's Lounge</h1>
+                <p>News</p>
+                <p>About Us</p>   
+            </div>
+
+            <div className="right">
+                <div className="search-bar">
+                    <input className="input" type="text" placeholder="Search Games " />
+                    <SearchIcon className="search-icon"/>
+                </div>                             
+                    <button className="login">LOGIN</button>               
+            </div>
         </div>             
     )
 }
