@@ -52,7 +52,6 @@ body {
 }
 
 .login {
-  display: inline-block;
   margin: 5px;
   padding: 6px;
   margin-right: 30px;
@@ -88,6 +87,99 @@ body {
   padding: 0 6px;
 }
 
-.login:focus{
+.login:focus {
   outline: none;
+}
+
+/* footer */
+
+.footer {
+  color: white;
+  background-color: #1a1a1d;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper {
+  flex: 1;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col1 {
+  flex: 1;
+  font-size: 18px;
+  margin-left: 500px;
+  padding: 0;
+  cursor: pointer;
+}
+.col1 > h4 {
+  font-size: 25px;
+  cursor: default;
+  padding-left: 80px;
+  padding-bottom: 17px;
+}
+
+.col2 {
+  margin-right: 500px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.col2 > h4 {
+  font-size: 22px;
+  cursor: default;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  cursor: default;
+}
+
+.copyright:hover {
+  color: #c3073f;
+}
+
+.col1:hover h4 {
+  color: #c3073f;
+}
+
+.col2:hover h4 {
+  color: #c3073f;
+}
+
+.list:hover {
+  color: #c3073f;
+}
+
+.list1:hover {
+  color: #244bfa;
+}
+
+.list2:hover {
+  color: #db0000;
+}
+
+.list,
+.list1,
+.list2 {
+  list-style: none;
+}
+
+.list {
+  padding: 2px;
 }
