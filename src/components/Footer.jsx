@@ -9,16 +9,16 @@ const Footer = () => {
         <div className="footer">      
             <div className="row">
                 <div className="col1">
-                    <h4>Legal</h4>
+                    <h4><span>Legal :</span></h4>
                     <ul>
-                        <li className="list">Terms & Conditons</li>
+                       <li className="list"> <span>Terms & Conditons </span></li>
                         <li className="list">Privacy Policy</li>
                         <li className="list">Store Refund Policy</li>
                         <li className="list">Terms of Service</li>
                     </ul>
                 </div>
                 <div className="col2">
-                    <h4>Follow Us</h4>
+                    <h4> <span>Follow Us:</span></h4>
                     <ul>
                         <li className="list1"><FacebookIcon /></li>
                         <li className="list2"><InstagramIcon/></li>
@@ -29,7 +29,9 @@ const Footer = () => {
             </div>
             <hr />
                      <p className="copyright">
+                         <span>
                          &copy;{new Date().getFullYear()} Gamer's Lounge | All rights reserved
+                         </span>
                      </p>
             </div>       
     )

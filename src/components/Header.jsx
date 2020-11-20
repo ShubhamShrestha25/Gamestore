@@ -8,16 +8,14 @@ const Header = () => {
                 <h1>Gamer's Lounge</h1>
                 <p>News</p>
                 <p>About Us</p>   
-            </div>
-
-            <div className="right">
+           
                 <div className="search-bar">
                     <input className="input" type="text" placeholder="Search Games " />
                     <SearchIcon className="search-icon"/>
                 </div>                             
                     <button className="login">LOGIN</button>               
-            </div>
-        </div>             
+            </div>  
+            </div>         
     )
 }
 
