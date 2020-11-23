@@ -4,67 +4,67 @@
             "title":"Cyberpunk 2077",
             "image": "./images/cyberpunk.jpg",
             "Description":"Cyberpunk 2077 is an action role-playing video game developed and published by CD Projekt. It is scheduled to be released for Microsoft Windows, PlayStation 4, PlayStation 5, Stadia, Xbox One, and Xbox Series X/S",
-            "price":"60$"
+            "price":60
         },
         {"id":"2",
             "title":"Red Dead Redemption 2",
             "image": "./images/reddead.jpg",
             "Description":"Red Dead Redemption 2 is a 2018 action-adventure game developed and published by Rockstar Games. The game is the third entry in the Red Dead series and is a prequel to the 2010 game Red Dead Redemption.",
-            "price":"45$"
+            "price":45
         },
         {"id":"3",
             "title":"Grand Theft Auto V",
             "image": "./images/gta5.jpg",
             "Description":"Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the first main entry in the Grand Theft Auto series since 2008's Grand Theft Auto IV.",
-            "price":"20$"
+            "price":20
         },
         {"id":"4",
             "title":"The Witcher 3: Wild Hunt",
             "image": "./images/witcher3.jpg",
             "Description":"The Witcher 3: Wild Hunt is a 2015 action role-playing game developed and published by Polish developer CD Projekt Red and is based on The Witcher series of fantasy novels written by Andrzej Sapkowski. ",
-            "price":"30$"
+            "price":30
         },
         {"id":"5",
             "title":"Sekiro: Shadows Die Twice",
             "image": "./images/sekiro.jpg",
             "Description":"Sekiro: Shadows Die Twice is an action-adventure video game developed by FromSoftware and published by Activision. The game follows a shinobi known as Wolf as he attempts to take revenge on a samurai clan who attacked him and kidnapped his lord.",
-            "price":"30$"
+            "price":30
         },
         {"id":"6",
             "title":"Doom Eternal",
             "image": "./images/doom.jpg",
             "Description":"Doom Eternal is a first-person shooter video game developed by id Software and published by Bethesda Softworks.",
-            "price":"60$"
+            "price":60
         },
         {"id":"7",
             "title":"Forza Horizon 4",
             "image": "./images/forza.jpg",
             "Description":"Forza Horizon 4 is a 2018 racing video game developed by Playground Games and published by Microsoft Studios. It was released on 2 October 2018 on Xbox One and Microsoft Windows after being announced at Xbox's E3 2018 conference. An enhanced version of the game is set to release on Xbox Series X/S on 10 November 2020.",
-            "price":"30$"
+            "price":30
         },
         {"id":"8",
             "title":"Control",
             "image": "./images/control.jpg",
             "Description":"Control is an action-adventure video game developed by Remedy Entertainment and published by 505 Games. Control was released in August 2019 for Microsoft Windows, PlayStation 4, and Xbox One. A cloud-based version for the Nintendo Switch was released in October 2020.",
-            "price":"45$"
+            "price":45
         },
         {"id":"9",
             "title":"Horizon Zero Dawn",
             "image": "./images/horizon.jpg",
             "Description":"Horizon Zero Dawn is an action role-playing game developed by Guerrilla Games and published by Sony Interactive Entertainment. The plot follows Aloy, a hunter in a world overrun by machines, who sets out to uncover her past.",
-            "price":"20$"
+            "price":20
         },
         {"id":"10",
             "title":"Portal 2",
             "image": "./images/portal.jpg",
             "Description":"Portal 2 is a puzzle-platform game developed by Valve. It was released in April 2011 for Windows, Mac OS X, Linux, PlayStation 3, and Xbox 360. The digital PC version is distributed online by Valve's Steam service, while all retail editions were distributed by Electronic Arts.",
-            "price":"10$"
+            "price":10
         },
         {"id":"11",
             "title":"Dark Souls III",
             "image": "./images/darksoul.jpg",
             "Description":"Dark Souls III is an action role-playing video game developed by FromSoftware and published by Bandai Namco Entertainment for PlayStation 4, Xbox One, and Microsoft Windows.",
-            "price":"10$"
+            "price":10
         }
     ]
 }

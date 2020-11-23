@@ -18,6 +18,12 @@ class Middle extends Component {
     }
   }
 
+  removeFromCart =(product) =>{
+    const cartItems = this.state.cartItems.slice();
+    this.setState({
+      cartItems: cartItems.filter((remove) => remove.id !== product.id),
+    })
+  }
   addToCart = (product) =>{
     const cartItems = this.state.cartItems.slice();
     let alreadyInCart = false;
@@ -61,7 +67,7 @@ return (
            addToCart={this.addToCart}
           />
           </div>
-        <div className="sidebar"><Cart cartItems={this.state.cartItems} /></div>
+        <div className="sidebar"><Cart cartItems={this.state.cartItems} removeFromCart={this.removeFromCart}/> </div>
       </div>
     )
 }

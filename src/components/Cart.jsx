@@ -1,6 +1,15 @@
 import React, { Component } from 'react'
+import HighlightOffIcon from '@material-ui/icons/HighlightOff';
 
 class Cart extends Component {
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+             showCheckout: false
+        }
+    }
+    
     render() {
         const {cartItems} = this.props;
         return (
@@ -11,6 +20,40 @@ class Cart extends Component {
                     You have {cartItems.length} in the cart {" "}
                 </div>
                 }
+                <div>
+                    <div className="cart">
+                        <ul className="cartItems">
+                            {cartItems.map(item =>(
+                                <li key={item.id}>
+                                    <div>
+                                        <img src={item.image} alt={item.title} />
+                                    </div>
+                                    <div>
+                                    <ul> 
+                                    <li className="li1">{item.title} </li>
+                                     <li className="li2"> ${item.price} </li>
+                                     </ul>   
+                                   <div className="right">
+                                   <button onClick={()=> this.props.removeFromCart(item)}><HighlightOffIcon/></button>
+                                   </div>
+                                </div>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                    {cartItems.length!==0 && (
+                        <div className="cart">
+                        <div className="carttotal">
+                            <div className="total" >
+                            Total:{" "}
+                            ${cartItems.reduce((a,c)=>{return a+c.price},0)}
+                            </div>
+                            <button onclick={()=>{this.setState({showCheckout:true})}}className="cartButton">Checkout</button>
+                        </div>
+                    </div>
+                    
+                    )}
+                </div>
             </div>
         )
     }

@@ -14,7 +14,6 @@ body {
   height: 10vh;
   overflow: hidden;
   background-color: #1a1a1d;
-  color: white;
 }
 
 .left {
@@ -22,19 +21,19 @@ body {
   width: 100%;
   height: 100%;
   align-items: center;
+  text-decoration: none;
   justify-content: space-around;
   padding-left: 50px;
 }
 
 .left > h1 {
+  color: #c3073f;
   margin-right: 55px;
   font-size: 35px;
   cursor: pointer;
-  color: #c3073f;
 }
 
 .left > p {
-  padding: 0px 30px;
   font-size: 20px;
   cursor: pointer;
 }
@@ -62,6 +61,7 @@ body {
 .search-bar {
   display: flex;
   align-items: center;
+  color: white;
 }
 
 .search-icon {
@@ -92,7 +92,6 @@ body {
 /* footer */
 
 .footer {
-  color: white;
   background-color: #1a1a1d;
   position: relative;
   bottom: 0;
@@ -121,11 +120,11 @@ body {
   width: 50%;
   align-items: center;
   font-size: 18px;
-  cursor: pointer;
 }
 .col1 > h4 {
   font-size: 25px;
   cursor: default;
+  color: white;
 }
 
 .col2 {
@@ -133,9 +132,9 @@ body {
   float: right;
   align-items: center;
   justify-content: center;
+  color: white;
   width: 50%;
   padding: 0px;
-  cursor: pointer;
 }
 
 .col2 > h4 {
@@ -144,6 +143,7 @@ body {
 }
 
 .copyright {
+  color: white;
   display: flex;
   justify-content: center;
   font-size: 22px;
@@ -276,4 +276,93 @@ body {
 
 .filter-sort {
   margin-right: 29rem;
+}
+
+/* cart */
+.cartHeader {
+  font-size: 22px;
+  padding: 2rem;
+  display: flex;
+}
+
+.cartItems {
+  padding: 0;
+  width: 100%;
+  list-style: none;
+}
+
+.cartItems img {
+  width: 5rem;
+}
+
+.cartItems li {
+  display: flex;
+}
+.cartItems li div {
+  padding: 0.5rem;
+}
+
+.cartItems li div:last-child {
+  flex: 1;
+}
+
+.right {
+  text-align: right;
+}
+.right button {
+  background-color: #c0c0c0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.right button:hover {
+  color: #db0000;
+}
+
+.cartalign {
+  font-size: 18px;
+}
+
+.list {
+  font-size: 16px;
+  list-style: none;
+}
+
+.li1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  cursor: default;
+}
+
+.li2 {
+  font-size: 16px;
+  cursor: default;
+}
+
+.cartButton {
+  float: right;
+  margin-right: 5rem;
+  padding: 1rem;
+  border: 0.1rem #c0c0c0 solid;
+  background-color: #1a1a1d;
+  color: #f0f0f0;
+  cursor: pointer;
+}
+
+.cartButton:hover {
+  color: #db0000;
+}
+
+.total {
+  position: relative;
+  text-align: left;
+  top: 1.8rem;
+  font-weight: bold;
+}
+
+.disableLink {
+  text-decoration: none;
+  color: white;
 }
