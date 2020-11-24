@@ -366,3 +366,123 @@ body {
   text-decoration: none;
   color: white;
 }
+
+.terms {
+  display: inline-block;
+}
+
+.terms h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.terms h2 {
+  text-align: start;
+  font-size: 1.3rem;
+}
+
+.news {
+  display: inline-block;
+}
+
+.news h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.news h2 {
+  text-align: start;
+  font-size: 1.3rem;
+}
+
+.aboutus {
+  display: inline-block;
+}
+
+.aboutus h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.aboutus h2 {
+  text-align: start;
+  font-size: 1.3rem;
+}
+
+.refund {
+  display: inline-block;
+}
+
+.refund h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.refund h2 {
+  text-align: start;
+  font-size: 1.3rem;
+}
+
+.refund p {
+  text-align: start;
+  font-size: 1rem;
+}
+
+.privacy {
+  display: inline-block;
+}
+
+.privacy h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.privacy p {
+  text-align: start;
+  font-size: 1rem;
+}
+
+.support h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.support h2 {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+/* product modal  */
+
+.productDetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 90vh;
+}
+
+.productDetails img {
+  max-height: 85vh;
+  max-width: 43rem;
+  margin: 0 auto;
+}
+
+.productDescription {
+  flex: 1 1;
+  margin: 1rem;
+}
+
+.close {
+  position: absolute;
+  right: 1rem;
+  top: 1.2rem;
+  z-index: 1000;
+  border: none;
+  outline: none;
+}
+
+.productPrice {
+  position: relative;
+  top: 1rem;
+  font-weight: bold;
+}
