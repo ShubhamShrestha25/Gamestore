@@ -14,7 +14,7 @@ const Header = () => {
                     <input className="input" type="text" placeholder="Search Games " />
                     <SearchIcon className="search-icon"/>
                 </div>                             
-                    <button className="login">LOGIN</button>               
+                <Link to={"/login"} className="disableLink"> <button className="login">LOGIN</button></Link>               
             </div>  
             </div>         
     )

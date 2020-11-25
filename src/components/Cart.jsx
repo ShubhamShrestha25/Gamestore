@@ -9,7 +9,9 @@ class Cart extends Component {
              showCheckout: false
         }
     }
-    
+    submitHandler = () =>{
+        alert("Thank you")
+    }
     render() {
         const {cartItems} = this.props;
         return (
@@ -47,8 +49,8 @@ class Cart extends Component {
                             <div className="total" >
                             Total:{" "}
                             ${cartItems.reduce((a,c)=>{return a+c.price},0)}
+                            <button  onclick={()=>{this.setState({showCheckout:true})}}className="cartButton">Checkout</button>
                             </div>
-                            <button onclick={()=>{this.setState({showCheckout:true})}}className="cartButton">Checkout</button>
                         </div>
                     </div>
                     

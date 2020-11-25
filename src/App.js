@@ -16,6 +16,7 @@ import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
 import Storerefund from "./pages/Storerefund";
 import Support from "./pages/Support";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             <Route exact path="/Privacy Policy" component={Privacy} />
             <Route exact path="/Store Refund Policy" component={Storerefund} />
             <Route exact path="/Support us" component={Support} />
+            <Route exact path="/Login" component={ Login } />
           </Switch>
         </div>
         <Footer />

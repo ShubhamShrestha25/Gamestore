@@ -342,6 +342,8 @@ body {
 }
 
 .cartButton {
+  position: relative;
+  bottom: 20px;
   float: right;
   margin-right: 5rem;
   padding: 1rem;
@@ -486,3 +488,69 @@ body {
   top: 1rem;
   font-weight: bold;
 }
+
+/* login  */
+
+.box {
+  width: 37rem;
+  height: 25rem;
+  background: #1a1a1d;
+  color: #fff;
+  top: 21%;
+  left: 36%;
+  position: absolute;
+  transform: translate(-50, -50);
+  box-sizing: border-box;
+}
+
+.box h1 {
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+  margin-bottom: 5rem;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.inputbox {
+  position: relative;
+  right: 1rem;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  border: none;
+}
+
+.inputbox label {
+  position: relative;
+  top: 0;
+  left: 0;
+  letter-spacing: 1px;
+  padding: 10px 0;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.loginButton {
+  position: relative;
+  left: 49%;
+  padding: 1rem;
+  border: 0.1rem #c0c0c0 solid;
+  background-color: #03a9f4;
+  color: #f0f0f0;
+  cursor: pointer;
+  letter-spacing: 2px;
+  border-radius: 5px;
+}
+
+.inputbox input {
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+  padding: 8px;
+}
+
